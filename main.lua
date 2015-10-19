@@ -1,7 +1,7 @@
 function love.load()
     require 'luafft'
 
-    sound = love.sound.newSoundData('test1.mp3')
+    sound = love.sound.newSoundData('sounds/test1.mp3')
     rate = sound:getSampleRate()
     channels = sound:getChannels()
     print(rate)
